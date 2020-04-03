@@ -1,8 +1,8 @@
 -- This file is main file to create schema.
 -- This file should be run under SYSTEM user.
 SPOOL log.txt
-DEFINE USER_ = &&USER
-DEFINE LOCATION_ =  &&LOCATION
+DEFINE USER_ = &&1
+DEFINE LOCATION_ =  &&2
 SET SERVEROUTPUT ON
 
 PROMPT Creating tablespaces
